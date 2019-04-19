@@ -4,4 +4,5 @@ export interface IPost {
   created_at: string,
   id: string,
   user: IUser,
+  text: string,
 }
